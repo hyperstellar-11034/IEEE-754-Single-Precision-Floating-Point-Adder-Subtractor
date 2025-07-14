@@ -8,3 +8,5 @@ to practice pipelining
 | S3    | ★ Mantissa Reordering               | Ensures always subtract smaller from larger                            |
 | S4    | Add/Subtract + Leading Zero Counter | Performs mantissa addition/subtraction, counts leading zeros           |
 | S5    | Normalize & Assemble                | Shifts, adjusts exponent, determines sign, builds final 32-bit result  |
+
+[EDA Playground](https://www.edaplayground.com) --> Tools & Simulators --> Icarus Verilog 12.0 --> Open EPWave after run
