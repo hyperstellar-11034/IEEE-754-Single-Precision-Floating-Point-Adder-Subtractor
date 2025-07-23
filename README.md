@@ -57,7 +57,7 @@ The result mantissa is now 2.0 (which is larger than 1.0, so it’s not normaliz
 
 ##### Stage 5
 Because mantissa > 1 (2.0), shift right and increase exponent by 1:<br>
-Normalized mantissa = 1.0<br>
+Normalized mantissa = 1.0 (from 10. ... we shifted right and got 1. ... then fix exponent) <br>
 Exponent = `r` + 1 = 1 + 1 = 2<br>
 Final sign = 0 (both inputs positive)<br>
 Compose final floating-point number: sign=0, exponent=2, mantissa=0 <br>
