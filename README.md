@@ -77,7 +77,7 @@ Signs:<br>
 ##### Stage 4
 Subtract mantissas: 1.25 - 0.6 = 0.65<br>
 Leading Zero Counting:<br>
-In binary, 0.65 is roughly 0.1010 <br>
+In binary, 0.65 is roughly 0.1010  (0.1010011001100110011...)<br>
 The leading bit of mantissa should be 1 (normalized), but here, the leading 1 is not in the MSB position; it’s shifted right.<br>
 We need to count how many leading zeros before the first 1 in the result mantissa. (1)<br>
 This means we must shift the mantissa left by 1 bit in the next stage to normalize it.<br>
