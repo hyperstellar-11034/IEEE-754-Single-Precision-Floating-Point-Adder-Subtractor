@@ -46,6 +46,7 @@ Compare shifted mantissas: 0.75 (small) < 1.25 (large), so order remains<br>
 ###### Pipeline registers after Stage 3:
 `S_mantissa` = 0.75<br>
 `L_mantissa` = 1.25<br>
+
 (The comparison ensures that subsequent arithmetic (addition or subtraction) is performed such that the result always has a non-negative mantissa when subtraction occurs. This simplifies hardware design and supports correct sign calculation in special cases.)
 
 ##### Stage 4
