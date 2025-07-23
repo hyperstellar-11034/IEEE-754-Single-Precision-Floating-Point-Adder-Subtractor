@@ -25,7 +25,7 @@ Identify which mantissa is small (Number1) and which is large (Number2)<br>
 ###### Pipeline registers after Stage 1:
 `s1` = sign of 1.5 = 0<br>
 `s2` = sign of 2.5 = 0<br>
-`e1` = 0, `e2` = 1<br>
+`e1` = 0, `e2` = 1  (`e` is exponent) <br>
 `m1` = mantissa of 1.5 (without leading 1) = 0.5<br>
 `m2` = mantissa of 2.5 (without leading 1) = 0.25<br>
 `Num_shift` = 1 (number of bits to shift smaller mantissa)<br>
