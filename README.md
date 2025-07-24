@@ -32,6 +32,7 @@ Identify which mantissa is small (Number1) and which is large (Number2)<br>
 
 ##### Stage 2
 Add implicit 1 to mantissas:<br>
+This step is essential because the IEEE-754 format only stores the fractional part of the mantissa, implicitly assuming a leading 1 for normalized numbers.
 Number1 mantissa becomes 1 + 0.5 = 1.5<br>
 Number2 mantissa becomes 1 + 0.25 = 1.25<br>
 Shift smaller mantissa right by t = 1:<br>
